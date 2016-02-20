@@ -1,0 +1,13 @@
+name: DelayedCommands
+main: com.gmail.tracebachi.DelayedCommands.DelayedCommands
+version: 1.0
+author: Trace Bachi (tracebachi@gmail.com, BigBossZee)
+commands:
+  rundc:
+    description: Runs a command group.
+  dcreload:
+    description: Reloads the configuration file.
+
+permissions:
+  DelayedCommand:
+    description: Permission for /rundc and /dcreload

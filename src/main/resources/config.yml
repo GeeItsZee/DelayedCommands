@@ -1,0 +1,11 @@
+# DelayedCommands Configuration File
+Hello:
+  - say Hello
+  - (5)
+  - say Hello 5 ticks later
+
+Shutdown:
+  - 'say Server will be shutting down in 1 minute!'
+  - (1200)
+  - 'save-all'
+  - 'stop'
